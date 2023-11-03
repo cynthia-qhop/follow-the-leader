@@ -151,6 +151,7 @@ export default function App() {
           animatedStyle={secondaryBallAnimatedStyle}
         />
 
+        {/* Previously used a specific gesture handler, such as PanGestureHandler. */}
         <GestureDetector gesture={pan}>
           <Ball color={Colors.black} animatedStyle={primaryBallAnimatedStyle} />
         </GestureDetector>
